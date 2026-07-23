@@ -1,7 +1,7 @@
 #####################################################################################
 # Name:          README.txt
 # Description:   Installation and usage instructions for TurboFEM Windows binary package (or the  main_TurboFEM_versions.py)
-# Author:        Vinicius José Martins Coutinho
+# Author:        Vinicius Josï¿½ Martins Coutinho
 # Last modified: 11 July 2026
 #
 
