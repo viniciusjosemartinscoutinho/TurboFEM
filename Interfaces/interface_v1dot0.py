@@ -82,8 +82,8 @@ def parallelism_of_run_my_python(script, *args):
     )
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-LOGO_PATH = SCRIPT_DIR / "Fast-FEA-Logo.png"
-
+LOGO_PATH = SCRIPT_DIR / "TurboFEM-Logo.png"
+##########################TurboFEM-Logo
 #functions that copy and change the scripts...
 def copy_and_change_script(nome_script, linha, nova_linha):
     """
@@ -1415,8 +1415,8 @@ def main5ufxyz():
     strcross =     strcross + ("\n O ultimo nó (em x=L) terá deslocamento imposto.")
     strcross =     strcross + ("\n\nDigite os componentes do deslocamento final (em mm).")
     strcross =     strcross + ('\n\n\n digita o valor do \n deslocamento "Ux" (axial) [mm]: ')
-    strcross02 = ('\n digita o valor do \n deslocamento "Uy" (transversal) [mm]: ')
-    strcross03 = ('\n digita o valor do \n deslocamento "Uz" (transversal) [mm]: ')
+    strcross02 = ('\n type the value of \n  "Uy" (transverse displacement) [mm]: ')
+    strcross03 = ('\n type the value of \n  "Uz" (transverse displacement) [mm]: ')    
         
     ja2.dynamic_input2(strcross, langue)
     ja2.dynamic_input2(strcross02, langue)
@@ -1622,7 +1622,7 @@ def main_cgx():
     graph05 = ja2.mycgx("geometria_barra_1d_param_sigma_min.png", "the minimum beam's main mechanical stress [MPa]", langue)
     graph06 = ja2.mycgx("geometria_barra_1d_param_epsilon_max.png", "The maximum beam's main epslon(STRAIN),\n also known as the beam's maximum main mechacinal deformation \n(epslon = sigma/E)", langue)
     graph07 = ja2.mycgx("geometria_barra_1d_param_epsilon_min.png", "The minimum beam's main epslon(STRAIN),\n also known as the beam's minimum main mechanical deformation \n(epslon = sigma/E)", langue)
-    button = ja2.downloadinp("download the model's file here for Abaqus/CalculiX", langue)
+    button = ja2.downloadinp("download the model's file here for Abaqus, CalculiX,PrePoMax, SALOME,\n FreeCAD FEM, CGX, Macway...", langue)
     button2 = ja2.downloadpng("download all graphics here", langue)
 
     #wait...
@@ -1675,4 +1675,6 @@ if(False):
 
     #here's the main function...
     final_main_v1dot0()
+
     #end of test
+    

@@ -219,6 +219,7 @@ def import_packages() -> dict[str, object]:
             modules[import_name] = importlib.import_module(import_name)            
         except Exception as e02:
             print(f"Error: {e02}")            
+            raise
     
     
     return modules
@@ -416,5 +417,4 @@ def try3main(txt,txt2):
         print(f"Error: {eff}")
         clone_empty(txt)
   
-#...let's do it!
-try3main("keys.txt","keys02.txt")
+try3main("keys.txt","keys02.txt")#it's done!!!

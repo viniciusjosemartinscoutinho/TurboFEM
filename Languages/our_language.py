@@ -14,7 +14,7 @@ from PySide6.QtWidgets import (
 from motor_tradutor import motor_tradutor, IDIOMAS
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-LOGO_PATH = SCRIPT_DIR / "Fast-FEA-Logo.png"
+LOGO_PATH = SCRIPT_DIR / "TurboFEM-Logo.png"
 
 # idiomas: codigo ISO -> nome (chave usada no dicionario IDIOMAS)
 CODIGO_PARA_NOME = {v: k for k, v in IDIOMAS.items()}
